@@ -1,0 +1,28 @@
+{
+  "name": "core.yourturn",
+  "version": "0.0.1",
+  "description": "YourTurn Resful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourzans/YourTurn.git"
+  },
+  "keywords": [
+    "YourTurn",
+    "Core API",
+    "RESTFul"
+  ],
+  "author": "Nicolas Fourzans",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  }
+}
